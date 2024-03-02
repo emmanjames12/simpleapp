@@ -3,10 +3,10 @@ import { StyleSheet, Text, View, Image, ImageBackground } from 'react-native';
 
 export default function App() {
   return (
-    <ImageBackground style={styles.backgroundImage} source={require('../simpleapp/assets/SpiralBuilding.jpg')}>
+    <ImageBackground style={styles.backgroundImage} source={require('./assets/SpiralBuilding.jpg')}>
       <View style={styles.container}>
         <View style={styles.profileContainer}>
-          <Image style={styles.logo} source={require('../simpleapp/assets/profileImage.png')} />
+          <Image style={styles.logo} source={require('./assets/profileImage.png')} />
         </View>
         {/* <StatusBar style="auto" /> */}
         <View style={styles.PersonaInfo }>
